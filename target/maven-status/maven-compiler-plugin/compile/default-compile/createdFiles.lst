@@ -1,0 +1,6 @@
+org/hanke/Application.class
+org/hanke/repository/EmployeeRepository.class
+org/hanke/web/api/EmployeeController.class
+org/hanke/service/EmployeeService.class
+org/hanke/service/EmployeeServiceBean.class
+org/hanke/model/Employee.class
