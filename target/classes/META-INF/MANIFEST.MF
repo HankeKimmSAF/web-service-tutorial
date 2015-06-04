@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: web-service-tutorial
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: hankekimm
+Implementation-Vendor-Id: org.hanke
+Build-Jdk: 1.8.0_45
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
