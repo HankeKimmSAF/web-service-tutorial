@@ -31,6 +31,6 @@ public class EmployeeServiceTest extends AbstractTest {
 	public void testFindAll() {
 		Collection<Employee> list = service.findAll();
 		Assert.assertNotNull("failure - expected not null", list);
-		Assert.assertEquals("failure - expected size", 5, list.size());
+		Assert.assertEquals("failure - expected size", 4, list.size());
 	}
 }
