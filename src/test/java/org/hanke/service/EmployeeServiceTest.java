@@ -33,4 +33,12 @@ public class EmployeeServiceTest extends AbstractTest {
 		Assert.assertNotNull("failure - expected not null", list);
 		Assert.assertEquals("failure - expected size", 4, list.size());
 	}
+	
+	@Test
+	public void testFindOne() {
+		Employee employee = service.findOne(new Long(1));
+		Assert.assertNotNull("failure - expected not null", employee);
+		Assert.assertEquals("failure expected value", "Hanke", employee.getFirstName());
+		Assert.assertEquals("failure expected value", "Kimm", employee.getLastName());
+	}
 }
