@@ -78,5 +78,13 @@ public class EmployeeController {
 		employeeService.delete(id);
 		return new ResponseEntity<Employee>(HttpStatus.NO_CONTENT);
 	}
+
+	@RequestMapping(
+			value = "logout",
+			method=RequestMethod.GET)
+	public String logout() {
+
+		return "SEUFHEWF";
+	}
 	
 }
